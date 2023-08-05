@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+
+header {
+    display: flex;
+    margin: 2.03rem 9.5rem;
+    justify-content: space-between;
+}
+
+.div__logo__busca{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.div__logo__a{
+    display: flex;
+}
+
+.div__logo, .div__busca{
+    display: flex;
+}
+
+.div__busca{
+    padding: 0.5rem 1rem;
+    align-items: center;
+    background: #F5F5F5;
+    width: 24.5625rem;
+    justify-content: space-between;
+    border-radius: 1.25rem;
+    max-height: 1.5rem;
+    
+}
+
+.div__busca input{
+    border: none;
+    background: none;
+    height: 1rem;
+    width: 100%;
+    font-family: 'Raleway';
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: black;
+}
+
+.div__busca input:focus{
+    outline: none;
+}
+
+.div__busca input::placeholder{
+    font-family: 'Raleway';
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #A2A2A2;
+}
+
+.busca__icone{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.button__login{
+    width: 11.375rem;
+    padding: 1rem;
+    background: none;
+    color: #2A7AE4;
+    font-family: 'Raleway';
+    font-weight: 400;
+
+    border: 1px solid #2A7AE4;
+}
+
+.button__login:hover{
+    background: #D4E4FA;
+    
+}
+
+.div__logo:hover, .busca__icone:hover, .button__login:hover {
+    cursor: pointer;
+}
